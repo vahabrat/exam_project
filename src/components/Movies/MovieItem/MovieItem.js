@@ -14,6 +14,6 @@ export default function MovieItem({ id, title, rating, descr, date, poster, movi
                     <button>Check movie</button>
                 </a>
             </div>
-        </div >
+        </div>
     )
 }

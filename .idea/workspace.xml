@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="accfd756-ad67-42c1-98ab-988499a47f35" name="Default Changelist" comment="" />
+    <list default="true" id="accfd756-ad67-42c1-98ab-988499a47f35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movies/MovieItem/MovieItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Movies/Movies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Serials/Serials.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Series.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Serials/Serials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dtrclYrQAdr0yH7XX0U3IhsOWq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,7 +38,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Front-end/FileGH" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../beetroot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uzer\exam_project\src\components\Sidebar" />
+      <recent name="C:\Users\uzer\exam_project\src\components\Movies" />
+      <recent name="C:\Users\uzer\exam_project\src\components\Serials" />
+      <recent name="C:\Users\uzer\exam_project\src\components\MovieItem\MovieItem" />
+      <recent name="C:\Users\uzer\exam_project\src\components\MovieItem" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,10 +74,21 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593255318472">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593272788564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593255318472" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593272788564" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594298862799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594298862799" />
+    <state x="462" y="149" width="611" height="526" key="find.popup" timestamp="1593272031032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="149" width="611" height="526" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593272031032" />
   </component>
 </project>
