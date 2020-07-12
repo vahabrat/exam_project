@@ -11,4 +11,5 @@
 .appWrapper{
     grid-area:content;
     background-color:gold;
+    padding-bottom:50px;
 }

@@ -1,4 +1,6 @@
-.movie-block{
+.movieBlock{
+    display:inline-block;
     margin:auto;
-
+    text-align:center;
+    width:250px;
 }
