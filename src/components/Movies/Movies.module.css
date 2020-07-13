@@ -6,3 +6,7 @@
     margin-top:50px;
     text-align:center;
 }
+
+.selectedPage{
+    background-color: red;
+}
