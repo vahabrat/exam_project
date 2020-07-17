@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {createStore, applyMiddleware} from 'redux'
+import {Provider} from "react-redux"
+import rootReducer from './redux/rootReducer.js'
+import thunk from 'redux-thunk'
+import { composeWithDevTools } from 'redux-devtools-extension'
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
+
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 

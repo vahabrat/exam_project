@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import MovieItem from './MovieItem/MovieItem.js'
 import SearchForm from './SearchForm/SearchForm.js'
 import s from './Movies.module.css'
-/*import Pagination from '../Pagination/Pagination.js'*/
+import {connect} from 'react-redux'
+import {loadMovies} from '../../redux/actions/movies_action'
+import {handleChange} from '../../redux/actions/movies_action'
 
 const apikey = '4fbb4691e328ec322d3358761a861113';
 
@@ -21,17 +23,17 @@ class Movies extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
+        this.props.onLoadMovies(this.props.searchTerm);
 
-        fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apikey}&query=${this.state.searchTerm}`)
-        .then((res)=>res.json())
-        .then((data)=>{
-            console.log(data)
-            this.setState({movies:[...data.results], totalMoviesCount: data.total_results, currentPage: data.page})
-        });
+        console.log(this.props.movies)
+        this.props.handleChange('')
+
     };
 
+
     handleChange = (e) => {
-        this.setState({searchTerm: e.target.value})
+        const searchText = e.target.value;
+        this.props.handleChange(searchText)
     }
 
 
@@ -52,16 +54,17 @@ class Movies extends Component {
         for(let i=1; i <= countOfPages; i++) {
             pages.push(i);
         }
+
         return (
             <div>
-                <SearchForm handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
+                <SearchForm handleSubmit={this.handleSubmit} handleChange={this.handleChange} searchTerm={this.props.searchTerm}/>
                 <div className={s.movies}>
-                   {this.state.movies.map(item=><MovieItem movie={item} />)}
+                   {this.props.movies.map(item=><MovieItem movie={item} />)}
                 </div>
                 <div>
                     { pages.map((pageNum) => {
                         return(
-                            <span className={this.state.currentPage === pageNum && s.selectedPage} onClick={ (e) => { this.setCurrentPage(pageNum)}}>{pageNum}</span>)
+                            <span className={this.state.currentPage === pageNum && s.selectedPage} onClick={ (e) => { this.setCurrentPage(pageNum) }}>{pageNum}</span>)
                     })}
                 </div>
 
@@ -70,7 +73,24 @@ class Movies extends Component {
     }
 }
 
-export default Movies;
+const mapStateToProps = (state) => {
+    console.log(state)
+    return {
+        movies: state.movies.movies,
+        searchTerm: state.movies.searchTerm
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onLoadMovies: (searchTerm) => dispatch(loadMovies(searchTerm)),
+        handleChange: (searchTerm) => dispatch(handleChange(searchTerm))
+    };
+
+
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Movies);
 
 /*`https://api.themoviedb.org/3/movie/popular?api_key=${apikey}&language=en-US&page=1`*/
 /*

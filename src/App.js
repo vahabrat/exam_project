@@ -7,6 +7,8 @@ import Movies from './components/Movies/Movies.js'
 import Serials from './components/Serials/Serials.js'
 import Header from './components/Header/Header.js'
 import Footer from './components/Footer/Footer.js'
+import GoogleApiWrapper from './components/Map/Map.js'
+
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
                                render = { () => <Movies/> }/>
                         <Route path='/serials'
                                render = { () => <Serials/> }/>
+                        <Route path='/map'
+                               render = { () => <GoogleApiWrapper/> }/>
             </div>
             <Footer/>
         </div>

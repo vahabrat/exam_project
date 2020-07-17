@@ -1,10 +1,11 @@
 .App{
+    height:100%;
     display:grid;
     grid-template-areas: "header header"
                          "sidebar content"
                          "footer footer";
     grid-template-columns:  200px 1fr;
-    grid-template-rows: 100px minmax(300px, 100%) 100px;
+    grid-template-rows: 15vh minmax(75vh, 100%) 10vh;
 
 }
 

@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <NavLink to ="/serials" activeClassName={s.activeLink}>Serials</NavLink>
             </div>
             <div className={s.item}>
-                <a>Music</a>
+                <NavLink to ="/map" activeClassName={s.activeLink}>Map</NavLink>
             </div>
             <div className={s.item}>
                 <a>Settings</a>

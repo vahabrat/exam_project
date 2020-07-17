@@ -1,0 +1,13 @@
+.mapWrapper {
+    display:inline;
+    position: absolute;
+    top:30%;
+    left:30%;
+    margin:auto;
+    width:50%;
+    height: 50%;
+    z-index:0;
+
+}
+
+
