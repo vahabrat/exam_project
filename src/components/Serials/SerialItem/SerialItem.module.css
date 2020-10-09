@@ -1,4 +1,4 @@
-.movieBlock{
+.serialBlock{
     display:flex;
     margin:15px;
     flex-wrap:nowrap;
@@ -13,7 +13,8 @@
 }
 
 .movieInfo{
-    text-align: left;
+
+
     padding-left:20px;
 }
 

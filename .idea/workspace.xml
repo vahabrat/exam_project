@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accfd756-ad67-42c1-98ab-988499a47f35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Map/Map.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/movies_action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/movieReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Serials/SearchFormSerials/SearchForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Serials/SearchFormSerials/SearchForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Serials/SerialItem/SerialItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Serials/SerialItem/SerialItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/serial_action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/serialReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movies/SearchForm/SearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/SearchForm/SearchForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movies/MovieItem/MovieItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/MovieItem/MovieItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movies/MovieItem/MovieItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/MovieItem/MovieItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movies/SearchForm/SearchForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/SearchForm/SearchForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Serials/Serials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Serials/Serials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/movies_action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/movies_action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../beetroot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uzer\exam_project\src\redux" />
+      <recent name="C:\Users\uzer\exam_project\src\components\Serials" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\uzer\exam_project\src\redux\actions" />
       <recent name="C:\Users\uzer\exam_project\src\components\Sidebar" />
@@ -84,10 +89,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593272788564" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594996468761">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595045340516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594996468761" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595045340516" />
     <state x="462" y="149" width="611" height="526" key="find.popup" timestamp="1593272031032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
